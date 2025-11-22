@@ -1,5 +1,0 @@
-<<<<<<< HEAD
-It is version 6
-=======
-It is version 5
->>>>>>> 3295ffe3e85ad6ad41bf2ef3b5389913885a40d6
