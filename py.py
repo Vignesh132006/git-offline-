@@ -9,7 +9,7 @@ base_file = "project_base.txt"
 db = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="yourpassword",
+    password="Pinky@143",
     database="version_system"
 )
 cursor = db.cursor()
@@ -36,7 +36,7 @@ print(f"✅ Version created: {new_version}")
 
 # -------------------- SAVE INTO MYSQL --------------------
 query = """
-INSERT INTO version_history (version_number, filename, created_at)
+INSERT INTO version_history (version_no, file_name, created_at)
 VALUES (%s, %s, %s)
 """
 values = (version_count, new_version, datetime.datetime.now())
